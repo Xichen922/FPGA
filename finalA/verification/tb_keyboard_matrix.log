@@ -1,0 +1,3 @@
+COMPILE PASS tb_keyboard_matrix: ivlpp=0, ivl=0
+PASS matrix: 16 mappings, full rollover, independent debounce, press/release chatter, exact 5-snapshot threshold, 128 random chords, atomic valid, reset-held recovery (1035 frames)
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_keyboard_matrix.sv:58: $finish called at 1327480000 (1ps)

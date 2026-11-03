@@ -1,0 +1,120 @@
+{
+    "Device": "GW5A-25A",
+    "Files": [
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/adsr_context.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/db_controls.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/db_spi_link.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ec11_encoder.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/envelope_bank.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/joystick_octave.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/joystick_vibrato.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/light_timbre_select.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/mcp3008_scan.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/mcp3008_spi.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/pcm5102a_i2s_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_lane.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/timbre_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/timbre_motion.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/touch_note_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/keyboard_matrix_scan.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/voice_mapper_12.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/musicbox_sine_rom.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ttp229_driver.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/touch_timbre_zones.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/fill_light_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_parameters.v",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 2000,
+    "ResultFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/impl/temp/rtl_parser.result",
+    "Top": "finalA_top",
+    "VerilogStd": "verilog_2001",
+    "VhdlStd": "vhdl_93"
+}

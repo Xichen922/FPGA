@@ -1,0 +1,16 @@
+{
+  "finalA": {
+    "timing": {
+      "Fmax_MHz": 50.568,
+      "setup_slack_ns": 0.225,
+      "hold_slack_ns": 0.01
+    },
+    "resources": {
+      "Logic": "17868/23040",
+      "Register": "6536/23280",
+      "CLS": "9952/11520",
+      "BSRAM": "48/56",
+      "DSP": "13/28"
+    }
+  }
+}

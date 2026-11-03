@@ -1,0 +1,3 @@
+COMPILE PASS tb47_light: ivlpp=0, ivl=0
+PASS fill light: both DO polarities, valid-only counters, stable confirmations, midband/glitch rejection, minimum on/off hold, disable/reset safe low
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb47_light.sv:28: $finish called at 3000000 (1ps)

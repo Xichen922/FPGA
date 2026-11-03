@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NES">gw5a25a-000</Device>
+    <FileList>
+        <File path="src/adsr_context.v" type="file.verilog" enable="1" />
+        <File path="src/adsr_envelope.v" type="file.verilog" enable="1" />
+        <File path="src/db_async_fifo.v" type="file.verilog" enable="1" />
+        <File path="src/db_audio_bridge.v" type="file.verilog" enable="1" />
+        <File path="src/db_controls.v" type="file.verilog" enable="1" />
+        <File path="src/db_effects.v" type="file.verilog" enable="1" />
+        <File path="src/db_flanger.v" type="file.verilog" enable="1" />
+        <File path="src/db_hmi_tx.v" type="file.verilog" enable="1" />
+        <File path="src/db_post_note_repeat.v" type="file.verilog" enable="1" />
+        <File path="src/db_scope.v" type="file.verilog" enable="1" />
+        <File path="src/db_score_serial.v" type="file.verilog" enable="1" />
+        <File path="src/db_flash_score.v" type="file.verilog" enable="1" />
+        <File path="src/w25q64_spi_byte.v" type="file.verilog" enable="1" />
+        <File path="src/db_score_player_flash.v" type="file.verilog" enable="1" />
+        <File path="src/db_spi_link.v" type="file.verilog" enable="1" />
+        <File path="src/db_uart_rx.v" type="file.verilog" enable="1" />
+        <File path="src/ec11_encoder.v" type="file.verilog" enable="1" />
+        <File path="src/envelope_bank.v" type="file.verilog" enable="1" />
+        <File path="src/finalB_top.v" type="file.verilog" enable="1" />
+        <File path="src/fixed_spectral_gain.v" type="file.verilog" enable="1" />
+        <File path="src/instrument_core.v" type="file.verilog" enable="1" />
+        <File path="src/joystick_octave.v" type="file.verilog" enable="1" />
+        <File path="src/joystick_vibrato.v" type="file.verilog" enable="1" />
+        <File path="src/light_timbre_select.v" type="file.verilog" enable="1" />
+        <File path="src/mcp3008_scan.v" type="file.verilog" enable="1" />
+        <File path="src/mcp3008_spi.v" type="file.verilog" enable="1" />
+        <File path="src/pcm5102a_i2s_tx.v" type="file.verilog" enable="1" />
+        <File path="src/pcm5102a_output.v" type="file.verilog" enable="1" />
+        <File path="src/piano_context.v" type="file.verilog" enable="1" />
+        <File path="src/piano_spectrum_rom.v" type="file.verilog" enable="1" />
+        <File path="src/pitch_loudness.v" type="file.verilog" enable="1" />
+        <File path="src/plucked_context.v" type="file.verilog" enable="1" />
+        <File path="src/plucked_envelope.v" type="file.verilog" enable="1" />
+        <File path="src/short_echo.v" type="file.verilog" enable="1" />
+        <File path="src/sine_rom_256.v" type="file.verilog" enable="1" />
+        <File path="src/sine_voice.v" type="file.verilog" enable="1" />
+        <File path="src/timbre_control.v" type="file.verilog" enable="1" />
+        <File path="src/timbre_motion.v" type="file.verilog" enable="1" />
+        <File path="src/tjc_display_uart.v" type="file.verilog" enable="1" />
+        <File path="src/touch_note_control.v" type="file.verilog" enable="1" />
+        <File path="src/ttp229_driver.v" type="file.verilog" enable="1" />
+        <File path="src/uart_tx.v" type="file.verilog" enable="1" />
+        <File path="src/ultrasonic_effect_toggle.v" type="file.verilog" enable="1" />
+        <File path="src/voice_mapper_12.v" type="file.verilog" enable="1" />
+        <File path="src/finalB.cst" type="file.cst" enable="1" />
+        <File path="src/finalB.sdc" type="file.sdc" enable="1" />
+    </FileList>
+</Project>
+
+
+
+

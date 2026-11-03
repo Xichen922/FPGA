@@ -1,0 +1,3 @@
+COMPILE PASS tb_organ_context: ivlpp=0, ivl=0
+PASS real12-voice organ context save/load keeps independent16-sample slow-release dividers across chords and single-key restrike
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_organ_context.sv:30: $finish called at 1310820000 (1ps)

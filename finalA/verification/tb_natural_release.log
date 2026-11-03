@@ -1,0 +1,3 @@
+COMPILE PASS tb_natural_release: ivlpp=0, ivl=0
+PASS natural clarinet release: 215904 samples follow exact monotone decay to zero beyond old timeout; early release and restrike
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_natural_release.sv:27: $finish called at 34549820000 (1ps)

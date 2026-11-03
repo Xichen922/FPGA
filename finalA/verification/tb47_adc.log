@@ -1,0 +1,3 @@
+COMPILE PASS tb47_adc: ivlpp=0, ivl=0
+PASS real MCP3008 serial bus: CH0/1/4 only, command bytes,10bit data, atomic publish, fixed scan cadence; legacy CH0..7 unchanged
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb47_adc.sv:49: $finish called at 245831000 (1ps)

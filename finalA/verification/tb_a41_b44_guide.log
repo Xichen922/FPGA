@@ -1,0 +1,8 @@
+COMPILE PASS tb_a41_b44_guide: ivlpp=0, ivl=0
+STAGE link good
+STAGE guide entered
+STAGE release target
+STAGE last target
+STAGE guide finished
+PASS A41+B44 real control chain: reversed matrix -> SPI -> physical key/octave feedback -> guide, extra-key rejection, release entry, wrong octave, no auto sound/overrides, G/S/P transitions, original automatic playback
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_a41_b44_guide.sv:106: $finish called at 2891390000 (1ps)

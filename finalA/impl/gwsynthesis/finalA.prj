@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NES"/>
+    <FileList>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\adsr_context.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\db_controls.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\db_spi_link.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\ec11_encoder.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\envelope_bank.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\finalA_top.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\instrument_core.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\joystick_octave.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\joystick_vibrato.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\light_timbre_select.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\mcp3008_scan.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\mcp3008_spi.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\pcm5102a_i2s_tx.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\gain_lane.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\gain_profile.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\sine_rom_256.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\timbre_control.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\timbre_motion.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\touch_note_control.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\keyboard_matrix_scan.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\voice_mapper_12.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\musicbox_sine_rom.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\ttp229_driver.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\touch_timbre_zones.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\fill_light_control.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\shared_modal_core.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\src\shared_modal_parameters.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_style" value="auto"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="map_option" value="1"/>
+        <Option type="max_fanout" value="1000"/>
+        <Option type="netlist_hierarchy" value="1"/>
+        <Option type="opt_goal" value="auto"/>
+        <Option type="output_file" value="C:\Users\Xichen\OneDrive\Desktop\sourse\finalA\impl\gwsynthesis\finalA.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="ram_style" value="auto"/>
+        <Option type="rom_style" value="auto"/>
+        <Option type="shift_reg" value="auto"/>
+        <Option type="top_module" value="finalA_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

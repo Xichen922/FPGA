@@ -1,0 +1,3 @@
+COMPILE PASS tb37_score_packet: ivlpp=0, ivl=0
+PASS score packet:12 octave/timbre combos,atomic header/footer/XOR,legacy keys,reserved octave,override masks,stop,timeout,recovery,existing command
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb37_score_packet.sv:39: $finish called at 1940000 (1ps)

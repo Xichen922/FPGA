@@ -1,0 +1,582 @@
+[
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_controls.v",
+        "InstLine": 2,
+        "InstName": "db_master_controls",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_controls.v",
+        "ModuleLine": 2,
+        "ModuleName": "db_master_controls"
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flanger.v",
+        "InstLine": 4,
+        "InstName": "db_flanger",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flanger.v",
+        "ModuleLine": 4,
+        "ModuleName": "db_flanger"
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_spi_link.v",
+        "InstLine": 3,
+        "InstName": "db_spi_master",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_spi_link.v",
+        "ModuleLine": 3,
+        "ModuleName": "db_spi_master"
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ec11_encoder.v",
+        "InstLine": 4,
+        "InstName": "ec11_encoder",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ec11_encoder.v",
+        "ModuleLine": 4,
+        "ModuleName": "ec11_encoder"
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+        "InstLine": 3,
+        "InstName": "finalB_top",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+        "ModuleLine": 3,
+        "ModuleName": "finalB_top",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 29,
+                "InstName": "u_audio_reset",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_audio_bridge.v",
+                "ModuleLine": 2,
+                "ModuleName": "db_reset_sync"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 30,
+                "InstName": "u_proc_reset",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_audio_bridge.v",
+                "ModuleLine": 2,
+                "ModuleName": "db_reset_sync"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 34,
+                "InstName": "u_rx",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_audio_bridge.v",
+                "ModuleLine": 7,
+                "ModuleName": "db_i2s_rx"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 36,
+                "InstName": "u_rx_fifo",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_async_fifo.v",
+                "ModuleLine": 3,
+                "ModuleName": "db_async_fifo"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 66,
+                "InstName": "u_flash_score",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flash_score.v",
+                "ModuleLine": 4,
+                "ModuleName": "db_flash_score",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flash_score.v",
+                        "InstLine": 37,
+                        "InstName": "u_spi",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/w25q64_spi_byte.v",
+                        "ModuleLine": 3,
+                        "ModuleName": "w25q64_spi_byte"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 78,
+                "InstName": "u_bluetooth",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_serial.v",
+                "ModuleLine": 7,
+                "ModuleName": "db_score_serial",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_serial.v",
+                        "InstLine": 29,
+                        "InstName": "u_rx",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_uart_rx.v",
+                        "ModuleLine": 2,
+                        "ModuleName": "db_uart_rx"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_serial.v",
+                        "InstLine": 35,
+                        "InstName": "u_tx",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/uart_tx.v",
+                        "ModuleLine": 3,
+                        "ModuleName": "uart_tx"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 89,
+                "InstName": "u_score",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_player_flash.v",
+                "ModuleLine": 8,
+                "ModuleName": "db_score_player_flash"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 127,
+                "InstName": "post_repeat.u_repeat",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_post_note_repeat.v",
+                "ModuleLine": 6,
+                "ModuleName": "db_post_note_repeat"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 146,
+                "InstName": "u_tx_fifo",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_async_fifo.v",
+                "ModuleLine": 3,
+                "ModuleName": "db_async_fifo"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 149,
+                "InstName": "u_tx",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_audio_bridge.v",
+                "ModuleLine": 32,
+                "ModuleName": "db_i2s_tx"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 163,
+                "InstName": "u_gesture",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ultrasonic_effect_toggle.v",
+                "ModuleLine": 7,
+                "ModuleName": "ultrasonic_effect_toggle"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 176,
+                "InstName": "u_link",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_spi_link.v",
+                "ModuleLine": 28,
+                "ModuleName": "db_spi_slave"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 187,
+                "InstName": "u_controls",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_controls.v",
+                "ModuleLine": 28,
+                "ModuleName": "db_slave_controls"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 213,
+                "InstName": "u_scope",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_scope.v",
+                "ModuleLine": 4,
+                "ModuleName": "db_scope"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+                "InstLine": 217,
+                "InstName": "current_display.u_display",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/tjc_display_uart.v",
+                "ModuleLine": 6,
+                "ModuleName": "tjc_display_uart",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/tjc_display_uart.v",
+                        "InstLine": 79,
+                        "InstName": "u_tx",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/uart_tx.v",
+                        "ModuleLine": 3,
+                        "ModuleName": "uart_tx"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+        "InstLine": 9,
+        "InstName": "instrument_core",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+        "ModuleLine": 9,
+        "ModuleName": "instrument_core",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 95,
+                "InstName": "u_motion",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/timbre_motion.v",
+                "ModuleLine": 5,
+                "ModuleName": "timbre_motion"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 97,
+                "InstName": "u_timbre",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/timbre_control.v",
+                "ModuleLine": 4,
+                "ModuleName": "timbre_control"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 133,
+                "InstName": "u_vibrato",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/joystick_vibrato.v",
+                "ModuleLine": 5,
+                "ModuleName": "joystick_vibrato",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/joystick_vibrato.v",
+                        "InstLine": 37,
+                        "InstName": "u_lfo_rom",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_rom_256.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "sine_rom_256"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 141,
+                "InstName": "u_joystick_octave",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/joystick_octave.v",
+                "ModuleLine": 4,
+                "ModuleName": "joystick_octave"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 145,
+                "InstName": "u_control",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/touch_note_control.v",
+                "ModuleLine": 11,
+                "ModuleName": "touch_note_control"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 151,
+                "InstName": "u_mapper",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/voice_mapper_12.v",
+                "ModuleLine": 10,
+                "ModuleName": "voice_mapper_12"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 187,
+                "InstName": "u_shared_gain",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/fixed_spectral_gain.v",
+                "ModuleLine": 5,
+                "ModuleName": "fixed_spectral_gain"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 261,
+                "InstName": "u_piano_spectrum",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/piano_spectrum_rom.v",
+                "ModuleLine": 4,
+                "ModuleName": "piano_spectrum_rom"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 311,
+                "InstName": "u_shared_sine_rom",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_rom_256.v",
+                "ModuleLine": 4,
+                "ModuleName": "sine_rom_256"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 319,
+                "InstName": "u_envelope_bank",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/envelope_bank.v",
+                "ModuleLine": 5,
+                "ModuleName": "envelope_bank",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/envelope_bank.v",
+                        "InstLine": 69,
+                        "InstName": "u_adsr",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/adsr_context.v",
+                        "ModuleLine": 13,
+                        "ModuleName": "adsr_context"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/envelope_bank.v",
+                        "InstLine": 76,
+                        "InstName": "u_pluck",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/plucked_context.v",
+                        "ModuleLine": 6,
+                        "ModuleName": "plucked_context"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/envelope_bank.v",
+                        "InstLine": 100,
+                        "InstName": "u_piano",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/piano_context.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "piano_context"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[0].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[0].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[1].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[1].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[2].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[2].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[3].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[3].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[4].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[4].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[5].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[5].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[6].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[6].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[7].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[7].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[8].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[8].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[9].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[9].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[10].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[10].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 347,
+                "InstName": "voices[11].u_voice",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+                "ModuleLine": 5,
+                "ModuleName": "sine_voice"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+                "InstLine": 377,
+                "InstName": "voices[11].u_balance",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+                "ModuleLine": 7,
+                "ModuleName": "pitch_loudness"
+            }
+        ]
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_scan.v",
+        "InstLine": 5,
+        "InstName": "mcp3008_scan",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_scan.v",
+        "ModuleLine": 5,
+        "ModuleName": "mcp3008_scan",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_scan.v",
+                "InstLine": 23,
+                "InstName": "u_spi",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_spi.v",
+                "ModuleLine": 6,
+                "ModuleName": "mcp3008_spi"
+            }
+        ]
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_output.v",
+        "InstLine": 9,
+        "InstName": "pcm5102a_output",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_output.v",
+        "ModuleLine": 9,
+        "ModuleName": "pcm5102a_output",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_output.v",
+                "InstLine": 25,
+                "InstName": "u_tx",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_i2s_tx.v",
+                "ModuleLine": 10,
+                "ModuleName": "pcm5102a_i2s_tx"
+            }
+        ]
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/short_echo.v",
+        "InstLine": 8,
+        "InstName": "short_echo",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/short_echo.v",
+        "ModuleLine": 8,
+        "ModuleName": "short_echo"
+    },
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ttp229_driver.v",
+        "InstLine": 15,
+        "InstName": "ttp229_driver",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ttp229_driver.v",
+        "ModuleLine": 15,
+        "ModuleName": "ttp229_driver",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ttp229_driver.v",
+                "InstLine": 40,
+                "InstName": "u_reader",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ttp229_driver.v",
+                "ModuleLine": 54,
+                "ModuleName": "ttp229_reader"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NES">gw5a25a-000</Device>
+    <FileList>
+        <File path="src/adsr_context.v" type="file.verilog" enable="1" />
+        <File path="src/db_controls.v" type="file.verilog" enable="1" />
+        <File path="src/db_spi_link.v" type="file.verilog" enable="1" />
+        <File path="src/ec11_encoder.v" type="file.verilog" enable="1" />
+        <File path="src/envelope_bank.v" type="file.verilog" enable="1" />
+        <File path="src/finalA_top.v" type="file.verilog" enable="1" />
+        <File path="src/instrument_core.v" type="file.verilog" enable="1" />
+        <File path="src/joystick_octave.v" type="file.verilog" enable="1" />
+        <File path="src/joystick_vibrato.v" type="file.verilog" enable="1" />
+        <File path="src/light_timbre_select.v" type="file.verilog" enable="1" />
+        <File path="src/mcp3008_scan.v" type="file.verilog" enable="1" />
+        <File path="src/mcp3008_spi.v" type="file.verilog" enable="1" />
+        <File path="src/pcm5102a_i2s_tx.v" type="file.verilog" enable="1" />
+        <File path="src/gain_lane.v" type="file.verilog" enable="1" />
+        <File path="src/gain_profile.v" type="file.verilog" enable="1" />
+        <File path="src/sine_rom_256.v" type="file.verilog" enable="1" />
+        <File path="src/timbre_control.v" type="file.verilog" enable="1" />
+        <File path="src/timbre_motion.v" type="file.verilog" enable="1" />
+        <File path="src/touch_note_control.v" type="file.verilog" enable="1" />
+        <File path="src/keyboard_matrix_scan.v" type="file.verilog" enable="1" />
+        <File path="src/voice_mapper_12.v" type="file.verilog" enable="1" />
+        <File path="src/finalA.cst" type="file.cst" enable="1" />
+        <File path="src/finalA.sdc" type="file.sdc" enable="1" />
+        <File path="src/musicbox_sine_rom.v" type="file.verilog" enable="1" />
+        <File path="src/ttp229_driver.v" type="file.verilog" enable="1" />
+        <File path="src/touch_timbre_zones.v" type="file.verilog" enable="1" />
+        <File path="src/fill_light_control.v" type="file.verilog" enable="1" />
+        <File path="src/shared_modal_core.v" type="file.verilog" enable="1" />
+        <File path="src/shared_modal_parameters.v" type="file.verilog" enable="1" />
+    </FileList>
+</Project>

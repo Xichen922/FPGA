@@ -1,0 +1,3 @@
+COMPILE PASS tb51_piano_vectors: ivlpp=0, ivl=0
+PASS piano 1000 frames /12000 voice samples bit-exact: all36 notes, 12-way polyphony, release, rapid retrigger, mixed octaves, signed vibrato; shared32 last voice cycle=373/512
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb51_piano_vectors.sv:29: $finish called at 10240100000 (1ps)

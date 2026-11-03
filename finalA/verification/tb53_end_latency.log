@@ -1,0 +1,3 @@
+COMPILE PASS tb53_end_latency: ivlpp=0, ivl=0
+PASS steady-state actual A53+B44 RTL path (ns): contact_to_mask=3437401 mask_to_trigger=40 trigger_to_first_nonzero_PCM=9040 PCM_to_B_rx_pair=11720 B_rx_to_post=300 post_to_DAC_I2S_pair=20340 contact_to_DAC_I2S_pair=3478841
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb53_end_latency.sv:32: $finish called at 4791771000 (1ps)

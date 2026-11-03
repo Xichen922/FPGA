@@ -1,0 +1,3 @@
+COMPILE PASS tb47_top_io: ivlpp=0, ivl=0
+PASS actual47 top: external serial TTP229 -> four-zone events -> manual/score fade/restore; existing matrix13 still works; no false notes; CH4->lamp only; 2624 actual I2S frames without underrun (accelerated sensor/touch timing)
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb47_top_io.sv:57: $finish called at 26867880000 (1ps)

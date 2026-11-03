@@ -1,0 +1,3 @@
+COMPILE PASS tb53_gain_lane: ivlpp=0, ivl=0
+PASS shared gain:2048 random/boundary signed samples,all3 slots,exact Q13 and both saturation limits
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb53_gain_lane.sv:29: $finish called at 122960000 (1ps)

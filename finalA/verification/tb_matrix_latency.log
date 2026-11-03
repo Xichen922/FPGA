@@ -1,0 +1,3 @@
+COMPILE PASS tb_matrix_latency: ivlpp=0, ivl=0
+PASS default 50MHz/0.25ms frame/press13 release21 snapshots: worst-phase press=3437400 ns release=5437400 ns (stable ideal contacts, excludes mechanical bounce and downstream audio)
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_matrix_latency.sv:25: $finish called at 9500090000 (1ps)

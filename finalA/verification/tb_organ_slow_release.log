@@ -1,0 +1,3 @@
+COMPILE PASS tb_organ_slow_release: ivlpp=0, ivl=0
+PASS organ held sustain and exact slow release to zero in221536 samples
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_organ_slow_release.sv:21: $finish called at 35621880000 (1ps)

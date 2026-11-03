@@ -1,0 +1,3 @@
+COMPILE PASS tb53_envelope_storage: ivlpp=0, ivl=0
+PASS compact envelope RAM/FF storage:3000 frames,cycle-exact vs51,12 contexts,random chords,all timbres/octaves,release,restrike and late triggers
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb53_envelope_storage.sv:31: $finish called at 30720100000 (1ps)

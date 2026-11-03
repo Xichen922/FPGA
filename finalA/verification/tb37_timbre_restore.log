@@ -1,0 +1,3 @@
+COMPILE PASS tb37_timbre_restore: ivlpp=0, ivl=0
+PASS timbre restore:all4 remote targets,background keys/light,manual priority,stop restore,reversed transition,9 switches only at zero gain
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb37_timbre_restore.sv:36: $finish called at 92780000 (1ps)

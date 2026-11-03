@@ -1,0 +1,3 @@
+COMPILE PASS tb_piano_i2s: ivlpp=0, ivl=0
+PASS actual A top + C4321 matrix + PCM/I2S at50MHz: 240 frames, 233 nonzero captured frames, no underrun; held-note octave change, release/restrike,12-note chords
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb_piano_i2s.sv:28: $finish called at 2447870000 (1ps)

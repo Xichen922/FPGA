@@ -1,0 +1,7 @@
+COMPILE PASS tb53_equivalence32: ivlpp=0, ivl=0
+STAGE shared32 comparison timbre0: relative waveform RMS error 0.000000
+STAGE shared32 comparison timbre1: relative waveform RMS error 0.000000
+STAGE shared32 comparison timbre2: relative waveform RMS error 0.000000
+STAGE shared32 comparison timbre3: relative waveform RMS error 0.000000
+PASS shared32 comparison:800 stereo frames,C3..B5,12-note chords,octave locks,release/restrike,vibrato; bounded waveform error, PCM<=401/512 clocks
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb53_equivalence32.sv:80: $finish called at 8193680000 (1ps)

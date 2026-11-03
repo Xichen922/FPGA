@@ -1,0 +1,464 @@
+[
+    {
+        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+        "InstLine": 3,
+        "InstName": "finalA_top",
+        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+        "ModuleLine": 3,
+        "ModuleName": "finalA_top",
+        "SubInsts": [
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 58,
+                "InstName": "u_adc",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/mcp3008_scan.v",
+                "ModuleLine": 5,
+                "ModuleName": "mcp3008_scan",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/mcp3008_scan.v",
+                        "InstLine": 27,
+                        "InstName": "u_spi",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/mcp3008_spi.v",
+                        "ModuleLine": 6,
+                        "ModuleName": "mcp3008_spi"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 67,
+                "InstName": "u_fill_light",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/fill_light_control.v",
+                "ModuleLine": 4,
+                "ModuleName": "fill_light_control"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 74,
+                "InstName": "u_touch_timbre",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ttp229_driver.v",
+                "ModuleLine": 15,
+                "ModuleName": "ttp229_driver",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ttp229_driver.v",
+                        "InstLine": 40,
+                        "InstName": "u_reader",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ttp229_driver.v",
+                        "ModuleLine": 54,
+                        "ModuleName": "ttp229_reader"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 78,
+                "InstName": "u_touch_zones",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/touch_timbre_zones.v",
+                "ModuleLine": 4,
+                "ModuleName": "touch_timbre_zones"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 87,
+                "InstName": "u_keyboard",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/keyboard_matrix_scan.v",
+                "ModuleLine": 5,
+                "ModuleName": "keyboard_matrix_scan"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 114,
+                "InstName": "u_encoder",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/ec11_encoder.v",
+                "ModuleLine": 4,
+                "ModuleName": "ec11_encoder"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 129,
+                "InstName": "u_instrument",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                "ModuleLine": 5,
+                "ModuleName": "instrument_core",
+                "SubInsts": [
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 81,
+                        "InstName": "u_motion",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/timbre_motion.v",
+                        "ModuleLine": 5,
+                        "ModuleName": "timbre_motion"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 84,
+                        "InstName": "u_timbre",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/timbre_control.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "timbre_control"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 113,
+                        "InstName": "u_vibrato",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/joystick_vibrato.v",
+                        "ModuleLine": 5,
+                        "ModuleName": "joystick_vibrato",
+                        "SubInsts": [
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/joystick_vibrato.v",
+                                "InstLine": 37,
+                                "InstName": "u_lfo_rom",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+                                "ModuleLine": 4,
+                                "ModuleName": "sine_rom_256"
+                            }
+                        ]
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 124,
+                        "InstName": "u_joystick_octave",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/joystick_octave.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "joystick_octave"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 128,
+                        "InstName": "u_control",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/touch_note_control.v",
+                        "ModuleLine": 11,
+                        "ModuleName": "touch_note_control"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 134,
+                        "InstName": "u_mapper",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/voice_mapper_12.v",
+                        "ModuleLine": 11,
+                        "ModuleName": "voice_mapper_12"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 155,
+                        "InstName": "u_envelope_bank",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/envelope_bank.v",
+                        "ModuleLine": 5,
+                        "ModuleName": "envelope_bank",
+                        "SubInsts": [
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/envelope_bank.v",
+                                "InstLine": 70,
+                                "InstName": "u_adsr",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/adsr_context.v",
+                                "ModuleLine": 13,
+                                "ModuleName": "adsr_context"
+                            }
+                        ]
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 162,
+                        "InstName": "u_shared32",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                        "ModuleLine": 7,
+                        "ModuleName": "shared_modal_core",
+                        "SubInsts": [
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "InstLine": 14,
+                                "InstName": "lanes[0].lane",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "ModuleLine": 24,
+                                "ModuleName": "shared_modal_lane",
+                                "SubInsts": [
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 50,
+                                        "InstName": "parameters",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_parameters.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "shared_modal_parameters"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 77,
+                                        "InstName": "box_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/musicbox_sine_rom.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "musicbox_sine_rom"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 79,
+                                        "InstName": "wind_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+                                        "ModuleLine": 4,
+                                        "ModuleName": "sine_rom_256"
+                                    }
+                                ]
+                            },
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "InstLine": 14,
+                                "InstName": "lanes[1].lane",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "ModuleLine": 24,
+                                "ModuleName": "shared_modal_lane",
+                                "SubInsts": [
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 50,
+                                        "InstName": "parameters",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_parameters.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "shared_modal_parameters"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 77,
+                                        "InstName": "box_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/musicbox_sine_rom.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "musicbox_sine_rom"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 79,
+                                        "InstName": "wind_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+                                        "ModuleLine": 4,
+                                        "ModuleName": "sine_rom_256"
+                                    }
+                                ]
+                            },
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "InstLine": 14,
+                                "InstName": "lanes[2].lane",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "ModuleLine": 24,
+                                "ModuleName": "shared_modal_lane",
+                                "SubInsts": [
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 50,
+                                        "InstName": "parameters",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_parameters.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "shared_modal_parameters"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 77,
+                                        "InstName": "box_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/musicbox_sine_rom.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "musicbox_sine_rom"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 79,
+                                        "InstName": "wind_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+                                        "ModuleLine": 4,
+                                        "ModuleName": "sine_rom_256"
+                                    }
+                                ]
+                            },
+                            {
+                                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "InstLine": 14,
+                                "InstName": "lanes[3].lane",
+                                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                "ModuleLine": 24,
+                                "ModuleName": "shared_modal_lane",
+                                "SubInsts": [
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 50,
+                                        "InstName": "parameters",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_parameters.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "shared_modal_parameters"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 77,
+                                        "InstName": "box_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/musicbox_sine_rom.v",
+                                        "ModuleLine": 3,
+                                        "ModuleName": "musicbox_sine_rom"
+                                    },
+                                    {
+                                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/shared_modal_core.v",
+                                        "InstLine": 79,
+                                        "InstName": "wind_table",
+                                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/sine_rom_256.v",
+                                        "ModuleLine": 4,
+                                        "ModuleName": "sine_rom_256"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[0].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[1].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[2].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[3].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[4].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[5].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[6].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[7].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[8].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[9].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[10].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 172,
+                        "InstName": "voices[11].u_balance",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_profile.v",
+                        "ModuleLine": 9,
+                        "ModuleName": "gain_profile"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 180,
+                        "InstName": "gain_lanes[0].u_gain",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_lane.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "gain_lane"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 180,
+                        "InstName": "gain_lanes[1].u_gain",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_lane.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "gain_lane"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 180,
+                        "InstName": "gain_lanes[2].u_gain",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_lane.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "gain_lane"
+                    },
+                    {
+                        "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/instrument_core.v",
+                        "InstLine": 180,
+                        "InstName": "gain_lanes[3].u_gain",
+                        "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/gain_lane.v",
+                        "ModuleLine": 4,
+                        "ModuleName": "gain_lane"
+                    }
+                ]
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 150,
+                "InstName": "u_link_controls",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/db_controls.v",
+                "ModuleLine": 2,
+                "ModuleName": "db_master_controls"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 155,
+                "InstName": "u_link",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/db_spi_link.v",
+                "ModuleLine": 3,
+                "ModuleName": "db_spi_master"
+            },
+            {
+                "InstFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/finalA_top.v",
+                "InstLine": 158,
+                "InstName": "u_audio",
+                "ModuleFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalA/src/pcm5102a_i2s_tx.v",
+                "ModuleLine": 10,
+                "ModuleName": "pcm5102a_i2s_tx"
+            }
+        ]
+    }
+]

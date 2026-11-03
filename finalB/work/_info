@@ -1,0 +1,279 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/26competition/example48
+T_opt
+!s110 1793362138
+VJ=;d1ZKnPkL0Y1Hz:4QU60
+04 15 4 work tb_stream_flash fast 0
+=1-c85309df9040-6ae488da-310-6d8c
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1793361714
+VXRmV@1<L2;aHQc9Gj^b[c0
+04 21 4 work tb_player_stream_mode fast 0
+=1-c85309df9040-6ae48732-330-830c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1793362264
+V?6SXI^gJ9UTcSHNIdUlon0
+04 18 4 work tb_stream_protocol fast 0
+=1-c85309df9040-6ae48957-375-5ec4
+R1
+R2
+n@_opt2
+R3
+vdb_flash_score
+Z4 !s110 1793362125
+!i10b 1
+!s100 :Md2<[_hh]UU`Pe8;F0kd1
+IHV<fTE0^DXG8l3jbFgN3;3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793361421
+8src\db_flash_score.v
+Fsrc\db_flash_score.v
+L0 4
+Z6 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z7 !s108 1793362125.000000
+Z8 !s107 sim\tb_stream_flash.sv|src\db_flash_score.v|src\w25q64_spi_byte.v|
+Z9 !s90 -work|work|src\w25q64_spi_byte.v|src\db_flash_score.v|sim\tb_stream_flash.sv|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdb_hmi_commands
+Z11 !s110 1793362248
+!i10b 1
+!s100 `TBTR0AF8NW@@RC>ZHLTZ2
+IizEJ48SQHi0=ICNkQ0f>?0
+R5
+R0
+Z12 w1792916155
+Z13 8src\db_uart_rx.v
+Z14 Fsrc\db_uart_rx.v
+L0 20
+R6
+r1
+!s85 0
+31
+Z15 !s108 1793362248.000000
+Z16 !s107 sim\tb_stream_protocol.sv|src\db_score_serial.v|src\uart_tx.v|src\db_uart_rx.v|
+Z17 !s90 -work|work|src\db_uart_rx.v|src\uart_tx.v|src\db_score_serial.v|sim\tb_stream_protocol.sv|
+!i113 0
+R10
+R2
+vdb_score_player_flash
+Z18 !s110 1793361697
+!i10b 1
+!s100 9YeaJaSV@l?V;0?JFO5^m0
+IzIIHBTRI`@QGk3ZNZ92fU1
+R5
+R0
+w1793361457
+8src\db_score_player_flash.v
+Fsrc\db_score_player_flash.v
+L0 8
+R6
+r1
+!s85 0
+31
+Z19 !s108 1793361697.000000
+Z20 !s107 sim\tb_player_stream_mode.sv|src\db_score_player_flash.v|
+Z21 !s90 -work|work|src\db_score_player_flash.v|sim\tb_player_stream_mode.sv|
+!i113 0
+R10
+R2
+vdb_score_serial
+R11
+!i10b 1
+!s100 eV=Z]goQV2m?UoE3W0YX@0
+IRGciHn@fVCIg4]l5NcRY:1
+R5
+R0
+w1793362091
+8src\db_score_serial.v
+Fsrc\db_score_serial.v
+L0 7
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R2
+vdb_uart_rx
+R11
+!i10b 1
+!s100 @e^Gj=7GdN;@z=MTCO;cL1
+IRo9d@ok[6IFl?ZG5izLJA2
+R5
+R0
+R12
+R13
+R14
+L0 2
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R2
+vexample42_top
+!s110 1793361578
+!i10b 1
+!s100 d7`Q40^dH_2F]8`OzehT]1
+I7cEVMVT8K1]0So?B>>k[J1
+R5
+R0
+w1793361553
+8src\example42_top.v
+Fsrc\example42_top.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1793361578.000000
+!s107 src\example42_top.v|src\db_score_player_flash.v|src\db_score_serial.v|src\db_flash_score.v|src\w25q64_spi_byte.v|src\uart_tx.v|src\db_uart_rx.v|
+!s90 -work|work|src\db_uart_rx.v|src\uart_tx.v|src\w25q64_spi_byte.v|src\db_flash_score.v|src\db_score_serial.v|src\db_score_player_flash.v|src\example42_top.v|
+!i113 0
+R10
+R2
+vtb_player_stream_mode
+Z22 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R18
+!i10b 1
+!s100 Cijh[RjC03OSXQX_L1^;R1
+I^FK1kh^F8lF4P57_aaEUU2
+R5
+!s105 tb_player_stream_mode_sv_unit
+S1
+R0
+w1793361679
+8sim\tb_player_stream_mode.sv
+Fsim\tb_player_stream_mode.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R10
+R2
+vtb_stream_flash
+R22
+R4
+!i10b 1
+!s100 PJmB77W10X?@:I[JDm6;S2
+IQ`?<Q4WTdSjom=G:aSakD2
+R5
+!s105 tb_stream_flash_sv_unit
+S1
+R0
+w1793362111
+8sim\tb_stream_flash.sv
+Fsim\tb_stream_flash.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vtb_stream_protocol
+R22
+R11
+!i10b 1
+!s100 K45E<eMH6n2F<`2RXm0WN3
+IgU^B8K_64=:Gz6YM7iMdD0
+R5
+!s105 tb_stream_protocol_sv_unit
+S1
+R0
+w1793361941
+8sim\tb_stream_protocol.sv
+Fsim\tb_stream_protocol.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R2
+vuart_tx
+R11
+!i10b 1
+!s100 OK0_<ag7:VI=2GULdMlZm2
+IhT]VNKA<@U<HHGa4:ORU[0
+R5
+R0
+w1792916146
+8src\uart_tx.v
+Fsrc\uart_tx.v
+L0 3
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R10
+R2
+vw25q64_spi_byte
+R4
+!i10b 1
+!s100 `_Kb_CF[gJWK^=6ZgAe`E0
+IafYkbZDoSXElMfT6R1XgF3
+R5
+R0
+w1793355392
+8src\w25q64_spi_byte.v
+Fsrc\w25q64_spi_byte.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2

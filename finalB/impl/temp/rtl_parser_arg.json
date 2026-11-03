@@ -1,0 +1,188 @@
+{
+    "Device": "GW5A-25A",
+    "Files": [
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/adsr_context.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/adsr_envelope.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_async_fifo.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_audio_bridge.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_controls.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_effects.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flanger.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_hmi_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_post_note_repeat.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_scope.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_serial.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_flash_score.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/w25q64_spi_byte.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_score_player_flash.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_spi_link.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/db_uart_rx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ec11_encoder.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/envelope_bank.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/finalB_top.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/fixed_spectral_gain.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/instrument_core.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/joystick_octave.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/joystick_vibrato.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/light_timbre_select.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_scan.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/mcp3008_spi.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_i2s_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pcm5102a_output.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/piano_context.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/piano_spectrum_rom.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/pitch_loudness.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/plucked_context.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/plucked_envelope.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/short_echo.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_rom_256.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/sine_voice.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/timbre_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/timbre_motion.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/tjc_display_uart.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/touch_note_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ttp229_driver.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/uart_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/ultrasonic_effect_toggle.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/src/voice_mapper_12.v",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 2000,
+    "ResultFile": "C:/Users/Xichen/OneDrive/Desktop/sourse/finalB/impl/temp/rtl_parser.result",
+    "Top": "finalB_top",
+    "VerilogStd": "verilog_2001",
+    "VhdlStd": "vhdl_93"
+}

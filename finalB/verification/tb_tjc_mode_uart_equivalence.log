@@ -1,0 +1,2 @@
+PASS old/new UART serial outputs and32768 command combinations identical
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalB_warning_cleanup\verification\tb_uart_equivalence.sv:40: $finish called at 1665570000 (1ps)

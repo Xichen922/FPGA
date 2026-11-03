@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="finalA_top" Register="30" Alu="27" Lut="18" T_Register="6536(30)" T_Alu="2333(27)" T_Lut="15475(18)" T_MULTALU27X18="11(0)" T_MULT12X12="4(0)" T_Bsram="26(0)">
+ <SubModule name="u_adc" Register="130" Lut="130" T_Register="205(130)" T_Lut="224(130)">
+  <SubModule name="u_spi" Register="75" Lut="94" T_Register="75(75)" T_Lut="94(94)"/>
+ </SubModule>
+ <SubModule name="u_fill_light" Register="21" Lut="40" T_Register="21(21)" T_Lut="40(40)"/>
+ <SubModule name="u_touch_timbre" T_Register="75(0)" T_Lut="129(0)">
+  <SubModule name="u_reader" Register="75" Lut="129" T_Register="75(75)" T_Lut="129(129)"/>
+ </SubModule>
+ <SubModule name="u_touch_zones" Register="6" Alu="3" Lut="10" T_Register="6(6)" T_Alu="3(3)" T_Lut="10(10)"/>
+ <SubModule name="u_keyboard" Register="131" Lut="205" T_Register="131(131)" T_Lut="205(205)"/>
+ <SubModule name="u_encoder" Register="45" Alu="31" Lut="28" T_Register="45(45)" T_Alu="31(31)" T_Lut="28(28)"/>
+ <SubModule name="u_instrument" Register="32" Alu="308" Lut="58" MULTALU27X18="2" T_Register="5493(32)" T_Alu="2196(308)" T_Lut="14341(58)" T_MULTALU27X18="11(2)" T_MULT12X12="4(0)" T_Bsram="26(0)">
+  <SubModule name="u_motion" Register="24" Alu="23" Lut="65" T_Register="24(24)" T_Alu="23(23)" T_Lut="65(65)"/>
+  <SubModule name="u_timbre" Register="17" Alu="9" Lut="18" T_Register="17(17)" T_Alu="9(9)" T_Lut="18(18)"/>
+  <SubModule name="u_vibrato" Register="53" Alu="68" Lut="33" MULTALU27X18="1" T_Register="53(53)" T_Alu="68(68)" T_Lut="182(33)" T_MULTALU27X18="1(1)">
+   <SubModule name="u_lfo_rom" Lut="149" T_Lut="149(149)"/>
+  </SubModule>
+  <SubModule name="u_joystick_octave" Register="8" Alu="6" Lut="17" T_Register="8(8)" T_Alu="6(6)" T_Lut="17(17)"/>
+  <SubModule name="u_control" Register="49" Lut="31" T_Register="49(49)" T_Lut="31(31)"/>
+  <SubModule name="u_mapper" Register="48" Lut="49" T_Register="48(48)" T_Lut="49(49)"/>
+  <SubModule name="u_envelope_bank" Register="1652" Alu="16" Lut="1509" Bsram="2" T_Register="1758(1652)" T_Alu="109(16)" T_Lut="2139(1509)" T_Bsram="2(2)">
+   <SubModule name="u_adsr" Register="106" Alu="93" Lut="630" T_Register="106(106)" T_Alu="93(93)" T_Lut="630(630)"/>
+  </SubModule>
+  <SubModule name="u_shared32" T_Register="2645(0)" T_Alu="1481(0)" T_Lut="10246(0)" T_MULTALU27X18="4(0)" T_MULT12X12="4(0)" T_Bsram="24(0)">
+   <SubModule name="lanes[0].lane" Register="646" Alu="389" Lut="2150" MULTALU27X18="1" MULT12X12="1" Bsram="2" T_Register="665(646)" T_Alu="389(389)" T_Lut="2559(2150)" T_MULTALU27X18="1(1)" T_MULT12X12="1(1)" T_Bsram="6(2)">
+    <SubModule name="parameters" Register="17" Lut="248" Bsram="3" T_Register="17(17)" T_Lut="248(248)" T_Bsram="3(3)"/>
+    <SubModule name="box_table" Register="2" Lut="16" Bsram="1" T_Register="2(2)" T_Lut="16(16)" T_Bsram="1(1)"/>
+    <SubModule name="wind_table" Lut="145" T_Lut="145(145)"/>
+   </SubModule>
+   <SubModule name="lanes[1].lane" Register="636" Alu="389" Lut="2147" MULTALU27X18="1" MULT12X12="1" Bsram="2" T_Register="655(636)" T_Alu="389(389)" T_Lut="2561(2147)" T_MULTALU27X18="1(1)" T_MULT12X12="1(1)" T_Bsram="6(2)">
+    <SubModule name="parameters" Register="17" Lut="248" Bsram="3" T_Register="17(17)" T_Lut="248(248)" T_Bsram="3(3)"/>
+    <SubModule name="box_table" Register="2" Lut="17" Bsram="1" T_Register="2(2)" T_Lut="17(17)" T_Bsram="1(1)"/>
+    <SubModule name="wind_table" Lut="149" T_Lut="149(149)"/>
+   </SubModule>
+   <SubModule name="lanes[2].lane" Register="648" Alu="352" Lut="2169" MULTALU27X18="1" MULT12X12="1" Bsram="2" T_Register="667(648)" T_Alu="352(352)" T_Lut="2569(2169)" T_MULTALU27X18="1(1)" T_MULT12X12="1(1)" T_Bsram="6(2)">
+    <SubModule name="parameters" Register="17" Lut="248" Bsram="3" T_Register="17(17)" T_Lut="248(248)" T_Bsram="3(3)"/>
+    <SubModule name="box_table" Register="2" Lut="18" Bsram="1" T_Register="2(2)" T_Lut="18(18)" T_Bsram="1(1)"/>
+    <SubModule name="wind_table" Lut="134" T_Lut="134(134)"/>
+   </SubModule>
+   <SubModule name="lanes[3].lane" Register="639" Alu="351" Lut="2152" MULTALU27X18="1" MULT12X12="1" Bsram="2" T_Register="658(639)" T_Alu="351(351)" T_Lut="2557(2152)" T_MULTALU27X18="1(1)" T_MULT12X12="1(1)" T_Bsram="6(2)">
+    <SubModule name="parameters" Register="17" Lut="248" Bsram="3" T_Register="17(17)" T_Lut="248(248)" T_Bsram="3(3)"/>
+    <SubModule name="box_table" Register="2" Lut="16" Bsram="1" T_Register="2(2)" T_Lut="16(16)" T_Bsram="1(1)"/>
+    <SubModule name="wind_table" Lut="141" T_Lut="141(141)"/>
+   </SubModule>
+  </SubModule>
+  <SubModule name="voices[0].u_balance" Register="46" Alu="16" Lut="89" T_Register="46(46)" T_Alu="16(16)" T_Lut="89(89)"/>
+  <SubModule name="voices[1].u_balance" Register="45" Alu="16" Lut="91" T_Register="45(45)" T_Alu="16(16)" T_Lut="91(91)"/>
+  <SubModule name="voices[2].u_balance" Register="45" Alu="16" Lut="89" T_Register="45(45)" T_Alu="16(16)" T_Lut="89(89)"/>
+  <SubModule name="voices[3].u_balance" Register="46" Alu="16" Lut="89" T_Register="46(46)" T_Alu="16(16)" T_Lut="89(89)"/>
+  <SubModule name="voices[4].u_balance" Register="46" Alu="16" Lut="88" T_Register="46(46)" T_Alu="16(16)" T_Lut="88(88)"/>
+  <SubModule name="voices[5].u_balance" Register="46" Alu="16" Lut="87" T_Register="46(46)" T_Alu="16(16)" T_Lut="87(87)"/>
+  <SubModule name="voices[6].u_balance" Register="46" Alu="16" Lut="88" T_Register="46(46)" T_Alu="16(16)" T_Lut="88(88)"/>
+  <SubModule name="voices[7].u_balance" Register="46" Alu="16" Lut="90" T_Register="46(46)" T_Alu="16(16)" T_Lut="90(90)"/>
+  <SubModule name="voices[8].u_balance" Register="46" Alu="16" Lut="89" T_Register="46(46)" T_Alu="16(16)" T_Lut="89(89)"/>
+  <SubModule name="voices[9].u_balance" Register="45" Alu="16" Lut="92" T_Register="45(45)" T_Alu="16(16)" T_Lut="92(92)"/>
+  <SubModule name="voices[10].u_balance" Register="45" Alu="16" Lut="87" T_Register="45(45)" T_Alu="16(16)" T_Lut="87(87)"/>
+  <SubModule name="voices[11].u_balance" Register="45" Alu="16" Lut="93" T_Register="45(45)" T_Alu="16(16)" T_Lut="93(93)"/>
+  <SubModule name="gain_lanes[0].u_gain" Register="78" Lut="116" MULTALU27X18="1" T_Register="78(78)" T_Lut="116(116)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="gain_lanes[1].u_gain" Register="78" Lut="116" MULTALU27X18="1" T_Register="78(78)" T_Lut="116(116)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="gain_lanes[2].u_gain" Register="78" Lut="116" MULTALU27X18="1" T_Register="78(78)" T_Lut="116(116)" T_MULTALU27X18="1(1)"/>
+  <SubModule name="gain_lanes[3].u_gain" Register="78" Lut="116" MULTALU27X18="1" T_Register="78(78)" T_Lut="116(116)" T_MULTALU27X18="1(1)"/>
+ </SubModule>
+ <SubModule name="u_link_controls" Register="76" Alu="61" Lut="80" T_Register="76(76)" T_Alu="61(61)" T_Lut="80(80)"/>
+ <SubModule name="u_link" Register="418" Alu="15" Lut="345" T_Register="418(418)" T_Alu="15(15)" T_Lut="345(345)"/>
+ <SubModule name="u_audio" Register="36" Lut="55" T_Register="36(36)" T_Lut="55(55)"/>
+</Module>

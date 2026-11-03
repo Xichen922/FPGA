@@ -1,0 +1,37 @@
+﻿类别,信号,源端排针或外设,源FPGA封装脚,目标端排针或外设,目标FPGA封装脚,说明
+板间,A I2S BCLK,A J4-11,G11,B J5-9,E11,A→B，6.25MHz
+板间,A I2S LRCK,A J4-9,D11,B J5-10,E10,A→B，97656.25Hz
+板间,A I2S DATA,A J4-7,B11,B J5-5,K5,A→B，24位/32位声道槽
+板间,LINK CS_N,A J5-7,K11,B J6-5,H5,A→B，SPI模式0
+板间,LINK SCLK,A J5-8,L11,B J6-6,J5,A→B，1MHz
+板间,LINK MOSI,A J4-5,C11,B J6-7,H8,A→B
+板间,LINK MISO,B J6-8,H7,A J4-12,G10,B→A
+板间,公共地,A GND,GND,B GND,GND,必须共地，不连接两板3.3V输出
+A外设,MCP3008 CS,A J6-5,H5,MCP3008 CS,,保留原接线
+A外设,MCP3008 CLK,A J6-6,J5,MCP3008 CLK,,保留原接线
+A外设,MCP3008 DIN,A J6-7,H8,MCP3008 DIN,,保留原接线
+A外设,MCP3008 DOUT,MCP3008 DOUT,,A J6-8,H7,保留原接线
+A外设,EC11 S1,EC11 S1,,A J5-5,K5,调回声深浅
+A外设,EC11 S2,EC11 S2,,A J5-6,L5,调回声深浅
+B外设,PCM5102A BCK,B J4-11,G11,DAC BCK,,原DAC从A移到B
+B外设,PCM5102A LRCK,B J4-9,D11,DAC LRCK,,原DAC从A移到B
+B外设,PCM5102A DIN,B J4-7,B11,DAC DIN,,原DAC从A移到B
+B外设,PCM5102A XSMT,B J4-5,C11,DAC XSMT,,原DAC从A移到B
+B外设,超声波 TRIG,B J5-7,K11,模块 TRIG,,保留原有电平适配
+B外设,超声波 ECHO,模块 ECHO,,B J5-8,L11,保留原有电平适配
+B外设,屏幕 RX,B J4-12,G10,屏幕 RX,,仅移动原来的RX信号线
+B外设,屏幕 TX（预留）,屏幕 TX,,B J5-6,L5,当前版本不接也可以，未启用接收
+A外设,kb_row[0],A J5-9,E11,MX R1,,行输出，高有效
+A外设,kb_row[1],A J5-10,E10,MX R2,,行输出，高有效
+A外设,kb_row[2],A J5-11,A11,MX R3,,行输出，高有效
+A外设,kb_row[3],A J5-12,A10,MX R4,,行输出，高有效
+A外设,kb_col[0],A J4-6,C10,MX C4,,列输入，内部下拉；外部列序C4321，逻辑已反转
+A外设,kb_col[1],A J4-8,B10,MX C3,,列输入，内部下拉；外部列序C4321，逻辑已反转
+A外设,kb_col[2],A J4-10,D10,MX C2,,列输入，内部下拉；外部列序C4321，逻辑已反转
+A外设,kb_col[3],A J6-9,G7,MX C1,,列输入，内部下拉；外部列序C4321，逻辑已反转
+A新增,TTP229 SCL,A J6-11,F5,TTP229 SCL,,独立换音色触摸板，3.3V供电，16键全多键模式
+A新增,TTP229 SDO,TTP229 SDO,,A J6-12,G5,低有效两线串行；不是I2C；FPGA端内部上拉
+A新增,led_fill_en,A J3-5,K4,1k电阻后接N-MOS栅极G,,高有效；G到S加100k下拉；不直接接灯带电源
+A光敏,光敏DO,光敏模块DO,,MCP3008 CH4,,仅一路光敏，AO不接；暗处极性待测，默认高；电平限制在ADC供电范围
+A光敏,摇杆X/Y,摇杆X/Y,,MCP3008 CH0/CH1,,保留原接线；CH2/3/5/6/7不再扫描
+补光,灯带供电,独立12V电源正极,,12V恒压白光灯带正极,,建议短灯带总功率<=5W；灯带负极接MOS D；电源负极与MOS S及FPGA GND共地

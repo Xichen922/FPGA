@@ -1,0 +1,578 @@
+[
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 0,
+    "peak": 302384,
+    "relative_waveform_RMS": 0.0004627580286578681,
+    "level_delta_dB": 0.00044635823355898395
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 0,
+    "peak": 658608,
+    "relative_waveform_RMS": 0.0007046032956988631,
+    "level_delta_dB": 0.00037569473659402925
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 1,
+    "peak": 297152,
+    "relative_waveform_RMS": 0.0004266165434958949,
+    "level_delta_dB": 0.00041596000248215657
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 1,
+    "peak": 620432,
+    "relative_waveform_RMS": 0.0006990522508796465,
+    "level_delta_dB": 0.00035867743484473147
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 2,
+    "peak": 290992,
+    "relative_waveform_RMS": 0.0004397879675098222,
+    "level_delta_dB": 0.00042649278155476426
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 2,
+    "peak": 579936,
+    "relative_waveform_RMS": 0.0006936776767905263,
+    "level_delta_dB": 0.0003483410466343406
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 3,
+    "peak": 359536,
+    "relative_waveform_RMS": 0.00036197365203229575,
+    "level_delta_dB": 8.329161034345454e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 3,
+    "peak": 544816,
+    "relative_waveform_RMS": 0.0006838622699060925,
+    "level_delta_dB": 0.0003257090277921417
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 4,
+    "peak": 335888,
+    "relative_waveform_RMS": 0.00031864698870924876,
+    "level_delta_dB": 7.027293846235966e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 4,
+    "peak": 514832,
+    "relative_waveform_RMS": 0.0006675747004245753,
+    "level_delta_dB": 0.00030232086108777467
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 5,
+    "peak": 340432,
+    "relative_waveform_RMS": 0.0003789925011655382,
+    "level_delta_dB": 8.33635745960589e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 5,
+    "peak": 488992,
+    "relative_waveform_RMS": 0.0006481577481260226,
+    "level_delta_dB": 0.00028274844570416366
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 6,
+    "peak": 328928,
+    "relative_waveform_RMS": 0.0003405060615632436,
+    "level_delta_dB": 6.758835087039389e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 6,
+    "peak": 461408,
+    "relative_waveform_RMS": 0.0006196625996088515,
+    "level_delta_dB": 0.0002798746385290973
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 7,
+    "peak": 321744,
+    "relative_waveform_RMS": 0.000342660551575232,
+    "level_delta_dB": 7.61499731355555e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 7,
+    "peak": 438224,
+    "relative_waveform_RMS": 0.0006077194573949343,
+    "level_delta_dB": 0.00026905172592056354
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 8,
+    "peak": 313008,
+    "relative_waveform_RMS": 0.0003519645315217202,
+    "level_delta_dB": 0.00010838750902577305
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 8,
+    "peak": 415840,
+    "relative_waveform_RMS": 0.0005887712447608061,
+    "level_delta_dB": 0.0002505427056882017
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 9,
+    "peak": 238096,
+    "relative_waveform_RMS": 0.0005343948864303988,
+    "level_delta_dB": -0.0006463719513662188
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 9,
+    "peak": 396640,
+    "relative_waveform_RMS": 0.0005641992001240432,
+    "level_delta_dB": 0.000237429286771669
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 10,
+    "peak": 206096,
+    "relative_waveform_RMS": 0.0005619779401616271,
+    "level_delta_dB": -0.000637033655699605
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 10,
+    "peak": 372688,
+    "relative_waveform_RMS": 0.0005325790841495972,
+    "level_delta_dB": 0.00022725032308187383
+  },
+  {
+    "instrument": "piano",
+    "octave": 3,
+    "key": 11,
+    "peak": 215840,
+    "relative_waveform_RMS": 0.0005625719612770012,
+    "level_delta_dB": -0.0005639704920466983
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 3,
+    "key": 11,
+    "peak": 353824,
+    "relative_waveform_RMS": 0.000505272430415816,
+    "level_delta_dB": 0.0001999680431618276
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 0,
+    "peak": 215264,
+    "relative_waveform_RMS": 0.0005736872063868109,
+    "level_delta_dB": -0.000554139654853237
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 0,
+    "peak": 336832,
+    "relative_waveform_RMS": 0.00045821232723753383,
+    "level_delta_dB": 0.00019164891485152748
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 1,
+    "peak": 206784,
+    "relative_waveform_RMS": 0.0005882697538842326,
+    "level_delta_dB": -0.0005603460716444031
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 1,
+    "peak": 315120,
+    "relative_waveform_RMS": 0.00044923827208731305,
+    "level_delta_dB": 0.0001747972152688547
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 2,
+    "peak": 199136,
+    "relative_waveform_RMS": 0.0005301607995705385,
+    "level_delta_dB": -0.0004448641399808211
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 2,
+    "peak": 294976,
+    "relative_waveform_RMS": 0.0004242683573971934,
+    "level_delta_dB": 0.0001556942803846433
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 3,
+    "peak": 218560,
+    "relative_waveform_RMS": 0.00047608924628511206,
+    "level_delta_dB": 0.00010291312214068145
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 3,
+    "peak": 275824,
+    "relative_waveform_RMS": 0.00040886696659000766,
+    "level_delta_dB": 0.00012800865415854923
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 4,
+    "peak": 210864,
+    "relative_waveform_RMS": 0.0004866711786456336,
+    "level_delta_dB": 7.474743082028757e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 4,
+    "peak": 258592,
+    "relative_waveform_RMS": 0.000385277499729179,
+    "level_delta_dB": 0.00012716198255304575
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 5,
+    "peak": 216080,
+    "relative_waveform_RMS": 0.0004871271430967809,
+    "level_delta_dB": 4.696973763106849e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 5,
+    "peak": 241984,
+    "relative_waveform_RMS": 0.00037295365800106697,
+    "level_delta_dB": 0.00012692565197660685
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 6,
+    "peak": 210512,
+    "relative_waveform_RMS": 0.0005020614810377623,
+    "level_delta_dB": 4.5794038670114314e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 6,
+    "peak": 227024,
+    "relative_waveform_RMS": 0.00033500019570774543,
+    "level_delta_dB": 9.003661162357007e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 7,
+    "peak": 202432,
+    "relative_waveform_RMS": 0.00043980272352772546,
+    "level_delta_dB": 2.9858510071244042e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 7,
+    "peak": 212384,
+    "relative_waveform_RMS": 0.0003311096270001498,
+    "level_delta_dB": 8.380189078191808e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 8,
+    "peak": 203536,
+    "relative_waveform_RMS": 0.00044854363747660886,
+    "level_delta_dB": 3.993208448040192e-05
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 8,
+    "peak": 199488,
+    "relative_waveform_RMS": 0.00032890405454157897,
+    "level_delta_dB": 6.967113087818705e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 9,
+    "peak": 189808,
+    "relative_waveform_RMS": 0.0005439692369285056,
+    "level_delta_dB": 0.00034804774956239906
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 9,
+    "peak": 187152,
+    "relative_waveform_RMS": 0.0003391202244205489,
+    "level_delta_dB": 5.5969507707794255e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 10,
+    "peak": 196640,
+    "relative_waveform_RMS": 0.0005545673970678169,
+    "level_delta_dB": 0.0003506652063494341
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 10,
+    "peak": 175280,
+    "relative_waveform_RMS": 0.0003592896845081056,
+    "level_delta_dB": 3.9823287040159146e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 4,
+    "key": 11,
+    "peak": 185056,
+    "relative_waveform_RMS": 0.0005695625087963429,
+    "level_delta_dB": 0.00033281088008813606
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 4,
+    "key": 11,
+    "peak": 164512,
+    "relative_waveform_RMS": 0.00036549542266695766,
+    "level_delta_dB": 3.281519443927305e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 0,
+    "peak": 209344,
+    "relative_waveform_RMS": 0.0006294466227747513,
+    "level_delta_dB": 0.0003834601378005306
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 0,
+    "peak": 151632,
+    "relative_waveform_RMS": 0.0003350625410431082,
+    "level_delta_dB": -3.43918200460783e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 1,
+    "peak": 202784,
+    "relative_waveform_RMS": 0.000648085183387134,
+    "level_delta_dB": 0.000386892070008744
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 1,
+    "peak": 146512,
+    "relative_waveform_RMS": 0.0003507889971484711,
+    "level_delta_dB": -4.459224504789016e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 2,
+    "peak": 209600,
+    "relative_waveform_RMS": 0.0005648782446823945,
+    "level_delta_dB": 0.0003167648485592269
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 2,
+    "peak": 141712,
+    "relative_waveform_RMS": 0.0003566639792558942,
+    "level_delta_dB": -2.3991147634010378e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 3,
+    "peak": 184304,
+    "relative_waveform_RMS": 0.0006054394019483383,
+    "level_delta_dB": -0.0003791269715915954
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 3,
+    "peak": 137584,
+    "relative_waveform_RMS": 0.0003759861130245395,
+    "level_delta_dB": -2.7266215499792334e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 4,
+    "peak": 183680,
+    "relative_waveform_RMS": 0.0006206875297493933,
+    "level_delta_dB": -0.0003857933231659301
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 4,
+    "peak": 133568,
+    "relative_waveform_RMS": 0.00038991056994513935,
+    "level_delta_dB": -4.5166346230531815e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 5,
+    "peak": 181296,
+    "relative_waveform_RMS": 0.0006366327589460727,
+    "level_delta_dB": -0.0003906246245603573
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 5,
+    "peak": 129728,
+    "relative_waveform_RMS": 0.00039698355262544964,
+    "level_delta_dB": -2.9009150311070573e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 6,
+    "peak": 172304,
+    "relative_waveform_RMS": 0.0006491844143590667,
+    "level_delta_dB": -0.00037032025818435214
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 6,
+    "peak": 126192,
+    "relative_waveform_RMS": 0.0004052559444309638,
+    "level_delta_dB": -2.4218155780898548e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 7,
+    "peak": 169680,
+    "relative_waveform_RMS": 0.000666177336241337,
+    "level_delta_dB": -0.0003550290682087428
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 7,
+    "peak": 123456,
+    "relative_waveform_RMS": 0.0004038257537810681,
+    "level_delta_dB": -2.9861807243718997e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 8,
+    "peak": 169584,
+    "relative_waveform_RMS": 0.0005987749638918471,
+    "level_delta_dB": -0.0003094082748999181
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 8,
+    "peak": 120864,
+    "relative_waveform_RMS": 0.00041113857156324456,
+    "level_delta_dB": -4.106335408700571e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 9,
+    "peak": 168800,
+    "relative_waveform_RMS": 0.0006320261089717949,
+    "level_delta_dB": -0.0007550133964943989
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 9,
+    "peak": 118592,
+    "relative_waveform_RMS": 0.0004352221905897771,
+    "level_delta_dB": -3.656434428649629e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 10,
+    "peak": 164432,
+    "relative_waveform_RMS": 0.000648306934798561,
+    "level_delta_dB": -0.0007325439923732081
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 10,
+    "peak": 116672,
+    "relative_waveform_RMS": 0.00045007548662084033,
+    "level_delta_dB": -3.464456911265455e-05
+  },
+  {
+    "instrument": "piano",
+    "octave": 5,
+    "key": 11,
+    "peak": 156320,
+    "relative_waveform_RMS": 0.0006735831031080603,
+    "level_delta_dB": -0.00046486853218126174
+  },
+  {
+    "instrument": "musicbox",
+    "octave": 5,
+    "key": 11,
+    "peak": 114736,
+    "relative_waveform_RMS": 0.0004525932180689279,
+    "level_delta_dB": -3.857478350853278e-05
+  }
+]

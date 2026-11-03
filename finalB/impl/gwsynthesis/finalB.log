@@ -1,0 +1,88 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\adsr_context.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\adsr_envelope.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_async_fifo.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_audio_bridge.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_controls.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_effects.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_flanger.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_hmi_tx.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_post_note_repeat.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_scope.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_serial.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_flash_score.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\w25q64_spi_byte.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_player_flash.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_spi_link.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_uart_rx.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ec11_encoder.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\envelope_bank.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\finalB_top.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\fixed_spectral_gain.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\instrument_core.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\joystick_octave.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\joystick_vibrato.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\light_timbre_select.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\mcp3008_scan.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\mcp3008_spi.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pcm5102a_i2s_tx.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pcm5102a_output.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\piano_context.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\piano_spectrum_rom.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pitch_loudness.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\plucked_context.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\plucked_envelope.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\short_echo.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\sine_rom_256.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\sine_voice.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\timbre_control.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\timbre_motion.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\tjc_display_uart.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\touch_note_control.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ttp229_driver.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\uart_tx.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ultrasonic_effect_toggle.v'
+Analyzing Verilog file 'C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\voice_mapper_12.v'
+Compiling module 'finalB_top'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\finalB_top.v":3)
+Compiling module 'db_reset_sync'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_audio_bridge.v":2)
+Compiling module 'db_i2s_rx'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_audio_bridge.v":7)
+Compiling module 'db_async_fifo(ADDR_BITS=4)'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_async_fifo.v":3)
+Extracting RAM for identifier 'mem'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_async_fifo.v":7)
+Compiling module 'db_flash_score'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_flash_score.v":4)
+Compiling module 'w25q64_spi_byte'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\w25q64_spi_byte.v":3)
+Compiling module 'db_score_serial'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_serial.v":7)
+Compiling module 'db_uart_rx(BAUD=9600)'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_uart_rx.v":2)
+Compiling module 'uart_tx(BAUD=9600)'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\uart_tx.v":3)
+Compiling module 'db_score_player_flash'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_player_flash.v":8)
+Compiling module 'db_post_note_repeat'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_post_note_repeat.v":6)
+Extracting RAM for identifier 'recording'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_post_note_repeat.v":25)
+Compiling module 'db_i2s_tx'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_audio_bridge.v":32)
+Compiling module 'ultrasonic_effect_toggle'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ultrasonic_effect_toggle.v":7)
+Compiling module 'db_spi_slave'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_spi_link.v":28)
+Compiling module 'db_slave_controls'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_controls.v":28)
+Compiling module 'db_scope'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_scope.v":4)
+Compiling module 'tjc_display_uart'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\tjc_display_uart.v":6)
+Compiling module 'uart_tx'("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\uart_tx.v":3)
+NOTE  (EX0101) : Current top module is "finalB_top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input uart_rx is unused("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\finalB_top.v":8)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "db_scope" instantiated to "u_scope" is swept in optimizing("C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\finalB_top.v":215)
+[95%] Generate netlist file "C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\impl\gwsynthesis\finalB.vg" completed
+[100%] Generate report file "C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\impl\gwsynthesis\finalB_syn.rpt.html" completed
+GowinSynthesis finish

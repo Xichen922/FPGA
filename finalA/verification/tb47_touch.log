@@ -1,0 +1,3 @@
+COMPILE PASS tb47_touch: ivlpp=0, ivl=0
+PASS TTP zones: all65536 masks, any/multi within each 2x2 zone, conflicts, release, no held retrigger, remote override/restore, fade selection (49 events)
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb47_touch.sv:38: $finish called at 2654160000 (1ps)

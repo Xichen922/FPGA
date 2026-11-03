@@ -1,0 +1,3 @@
+COMPILE PASS tb53_asymmetric_keys: ivlpp=0, ivl=0
+PASS matrix: 16 mappings, full rollover, independent debounce, press/release chatter, exact13/21 asymmetric thresholds, 128 random chords, atomic valid, reset-held recovery (3753 frames)
+C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\sim\tb53_asymmetric_keys.sv:58: $finish called at 4806520000 (1ps)

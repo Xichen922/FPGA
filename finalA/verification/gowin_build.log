@@ -1,0 +1,169 @@
+*** GOWIN Tcl Command Line Console  *** 
+alog error: failed to open log file: 'C:/Users/Xichen/AppData/Local/GowinSemi/IDE/cache/sh.log'
+Open project C:/Users/Xichen/Documents/Codex/2026-10-28/zhe-s/outputs/finalA/finalA.gprj finished
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\adsr_context.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\db_controls.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\db_spi_link.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\ec11_encoder.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\envelope_bank.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\finalA_top.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\instrument_core.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\joystick_octave.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\joystick_vibrato.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\light_timbre_select.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\mcp3008_scan.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\mcp3008_spi.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\pcm5102a_i2s_tx.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_lane.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\sine_rom_256.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\timbre_control.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\timbre_motion.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\touch_note_control.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\keyboard_matrix_scan.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\voice_mapper_12.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\musicbox_sine_rom.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\ttp229_driver.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\touch_timbre_zones.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\fill_light_control.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v'
+Analyzing Verilog file 'C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v'
+Compiling module 'finalA_top'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\finalA_top.v":3)
+Compiling module 'mcp3008_scan(SCAN_MODE_014=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\mcp3008_scan.v":5)
+Compiling module 'mcp3008_spi'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\mcp3008_spi.v":6)
+Compiling module 'fill_light_control'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\fill_light_control.v":4)
+Compiling module 'ttp229_driver(STARTUP_CYCLES=30000000,GAP_CYCLES=150000)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\ttp229_driver.v":15)
+Compiling module 'ttp229_reader(STARTUP_CYCLES=30000000,GAP_CYCLES=150000)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\ttp229_driver.v":54)
+Compiling module 'touch_timbre_zones'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\touch_timbre_zones.v":4)
+Compiling module 'keyboard_matrix_scan(ROW_CYCLES=3125,RELEASE_FRAMES=21)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\keyboard_matrix_scan.v":5)
+Compiling module 'ec11_encoder'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\ec11_encoder.v":4)
+Compiling module 'instrument_core(REMOTE_CONTROL_ENABLE=1,EXTERNAL_TIMBRE_ENABLE=1,VIBRATO_LFO_STEP=32'b00000000000000110101101011111110)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\instrument_core.v":5)
+Compiling module 'timbre_motion'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\timbre_motion.v":5)
+Compiling module 'timbre_control(REMOTE_CONTROL_ENABLE=1,EXTERNAL_CONTROL_ENABLE=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\timbre_control.v":4)
+Compiling module 'joystick_vibrato(LFO_STEP=32'b00000000000000110101101011111110)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\joystick_vibrato.v":5)
+Compiling module 'sine_rom_256'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\sine_rom_256.v":4)
+Compiling module 'joystick_octave'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\joystick_octave.v":4)
+Compiling module 'touch_note_control'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\touch_note_control.v":11)
+Compiling module 'voice_mapper_12(OCTAVE_345_ONLY=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\voice_mapper_12.v":11)
+Compiling module 'envelope_bank(LEGACY_PERCUSSION_ENABLE=0)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\envelope_bank.v":5)
+Extracting RAM for identifier 'low_memory'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\envelope_bank.v":136)
+Extracting RAM for identifier 'tail_context'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\envelope_bank.v":137)
+Compiling module 'adsr_context(KEYBOARD_ATTACK_SAMPLES=49,LOW_KEYBOARD_ATTACK_SAMPLES=98,KEYBOARD_RELEASE_SAMPLES=17578,LOW_KEYBOARD_RELEASE_SAMPLES=13183)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\adsr_context.v":13)
+Compiling module 'shared_modal_core'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":7)
+Compiling module 'shared_modal_lane'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":24)
+Extracting RAM for identifier 'ages'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":37)
+Extracting RAM for identifier 'noise_levels'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'wind_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'wind_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'contexts'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":40)
+Extracting RAM for identifier 'seed_table'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":135)
+Compiling module 'shared_modal_parameters'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":3)
+Extracting RAM for identifier 'p'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":4)
+Extracting RAM for identifier 'b'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":5)
+Compiling module 'musicbox_sine_rom'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\musicbox_sine_rom.v":3)
+Extracting RAM for identifier 'quarter'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\musicbox_sine_rom.v":4)
+Compiling module 'shared_modal_lane(LANE=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":24)
+Extracting RAM for identifier 'ages'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":37)
+Extracting RAM for identifier 'noise_levels'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'wind_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'wind_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'contexts'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":40)
+Extracting RAM for identifier 'seed_table'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":135)
+Compiling module 'shared_modal_parameters(LANE=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":3)
+Extracting RAM for identifier 'p'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":4)
+Extracting RAM for identifier 'b'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":5)
+Compiling module 'shared_modal_lane(LANE=2)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":24)
+Extracting RAM for identifier 'ages'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":37)
+Extracting RAM for identifier 'noise_levels'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'wind_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'wind_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'contexts'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":40)
+Extracting RAM for identifier 'seed_table'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":135)
+Compiling module 'shared_modal_parameters(LANE=2)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":3)
+Extracting RAM for identifier 'p'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":4)
+Extracting RAM for identifier 'b'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":5)
+Compiling module 'shared_modal_lane(LANE=3)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":24)
+Extracting RAM for identifier 'ages'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":37)
+Extracting RAM for identifier 'noise_levels'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'noise_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":38)
+Extracting RAM for identifier 'wind_states'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'wind_previous'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":39)
+Extracting RAM for identifier 'contexts'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":40)
+Extracting RAM for identifier 'seed_table'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_core.v":135)
+Compiling module 'shared_modal_parameters(LANE=3)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":3)
+Extracting RAM for identifier 'p'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":4)
+Extracting RAM for identifier 'b'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\shared_modal_parameters.v":5)
+Compiling module 'gain_profile'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=1)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=2)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=3)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=4)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=5)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=6)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=7)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=8)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=9)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=10)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_profile(NOTE_INDEX=11)'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_profile.v":9)
+Compiling module 'gain_lane'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\gain_lane.v":4)
+Compiling module 'db_master_controls'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\db_controls.v":2)
+Compiling module 'db_spi_master'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\db_spi_link.v":3)
+Compiling module 'pcm5102a_i2s_tx'("C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\pcm5102a_i2s_tx.v":10)
+NOTE  (EX0101) : Current top module is "finalA_top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\gwsynthesis\finalA.vg" completed
+[100%] Generate report file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\gwsynthesis\finalA_syn.rpt.html" completed
+GowinSynthesis finish
+Reading netlist file: "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\gwsynthesis\finalA.vg"
+Parsing netlist file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\gwsynthesis\finalA.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\src\finalA.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\pnr\finalA.power.html" completed
+Generate file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\pnr\finalA.pin.html" completed
+Generate file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\pnr\finalA.rpt.html" completed
+Generate file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\pnr\finalA.rpt.txt" completed
+Generate file "C:\Users\Xichen\Documents\Codex\2026-10-28\zhe-s\outputs\finalA\impl\pnr\finalA.tr.html" completed
+Sat Oct 31 18:05:38 2026
+

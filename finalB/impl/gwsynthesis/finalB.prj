@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NES"/>
+    <FileList>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\adsr_context.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\adsr_envelope.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_async_fifo.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_audio_bridge.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_controls.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_effects.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_flanger.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_hmi_tx.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_post_note_repeat.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_scope.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_serial.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_flash_score.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\w25q64_spi_byte.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_score_player_flash.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_spi_link.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\db_uart_rx.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ec11_encoder.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\envelope_bank.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\finalB_top.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\fixed_spectral_gain.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\instrument_core.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\joystick_octave.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\joystick_vibrato.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\light_timbre_select.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\mcp3008_scan.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\mcp3008_spi.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pcm5102a_i2s_tx.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pcm5102a_output.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\piano_context.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\piano_spectrum_rom.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\pitch_loudness.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\plucked_context.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\plucked_envelope.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\short_echo.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\sine_rom_256.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\sine_voice.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\timbre_control.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\timbre_motion.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\tjc_display_uart.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\touch_note_control.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ttp229_driver.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\uart_tx.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\ultrasonic_effect_toggle.v" type="verilog"/>
+        <File path="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\src\voice_mapper_12.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_style" value="auto"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="map_option" value="1"/>
+        <Option type="max_fanout" value="1000"/>
+        <Option type="netlist_hierarchy" value="1"/>
+        <Option type="opt_goal" value="auto"/>
+        <Option type="output_file" value="C:\Users\Xichen\OneDrive\Desktop\sourse\finalB\impl\gwsynthesis\finalB.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="ram_style" value="auto"/>
+        <Option type="rom_style" value="auto"/>
+        <Option type="shift_reg" value="auto"/>
+        <Option type="top_module" value="finalB_top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

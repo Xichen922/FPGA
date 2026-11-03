@@ -1,0 +1,17 @@
+{
+  "Fmax_MHz": 60.344,
+  "setup_slack_ns": 3.428,
+  "hold_slack_ns": 0.03,
+  "remaining_warnings": [
+    "CV0016 unused uart_rx (HMI extensions disabled)",
+    "NL0002 scope swept (current screen does not consume scope)"
+  ],
+  "removed_truncation_warnings": 8,
+  "modified_source_files": [
+    "db_post_note_repeat.v",
+    "db_scope.v",
+    "tjc_display_uart.v"
+  ],
+  "logic_policy": "explicit same low bits; no port,feature,algorithm orconstraint change",
+  "board_tested": false
+}

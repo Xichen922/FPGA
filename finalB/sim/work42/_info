@@ -1,0 +1,471 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/26competition/example42
+T_opt
+!s110 1793194410
+V_LCd84>aVYF7K3d[lcCee0
+04 18 4 work tb_tjc_effect_uart fast 0
+=1-c85309df9040-6ae1f9aa-175-6e50
+Z1 o-quiet -auto_acc_if_foreign -work sim/work42
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6d;65
+T_opt1
+!s110 1793184472
+VUnUEc]_TDN;aE2NDb?[Cd2
+04 13 4 work tb_poly_score fast 0
+=1-c85309df9040-6ae1d2d8-19f-75d4
+o-quiet -auto_acc_if_foreign -work work42
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1793194408
+V>fAj74kc:zL>cAhSh4FgI0
+04 16 4 work tb_spectrum_uart fast 0
+=1-c85309df9040-6ae1f9a8-338-3c0c
+R1
+R2
+n@_opt2
+R3
+R0
+vdb_hmi_commands
+Z4 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z5 !s110 1793183598
+!i10b 1
+!s100 IB;Mo5ggWL:VFUFoD4oGN0
+Ib@:OLKoMR[Ggakf:PKoQk3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 !s105 db_uart_rx_v_unit
+S1
+R0
+Z8 w1792916155
+Z9 8D:\FPGA\26competition\example42\src\db_uart_rx.v
+Z10 FD:\FPGA\26competition\example42\src\db_uart_rx.v
+L0 20
+Z11 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z12 !s108 1793183597.000000
+Z13 !s107 D:\FPGA\26competition\example42\sim\tb_poly_score.sv|D:\FPGA\26competition\example42\sim\tb_long_score.sv|D:\FPGA\26competition\example42\sim\tb_score_automation.sv|D:\FPGA\26competition\example42\sim\tb_cross_octave.sv|D:\FPGA\26competition\example42\src\db_score_player.v|D:\FPGA\26competition\example42\src\db_score_serial.v|D:\FPGA\26competition\example42\src\uart_tx.v|D:\FPGA\26competition\example42\src\db_uart_rx.v|
+Z14 !s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\src\db_uart_rx.v|D:\FPGA\26competition\example42\src\uart_tx.v|D:\FPGA\26competition\example42\src\db_score_serial.v|D:\FPGA\26competition\example42\src\db_score_player.v|D:\FPGA\26competition\example42\sim\tb_cross_octave.sv|D:\FPGA\26competition\example42\sim\tb_score_automation.sv|D:\FPGA\26competition\example42\sim\tb_long_score.sv|D:\FPGA\26competition\example42\sim\tb_poly_score.sv|
+!i113 0
+Z15 o-sv -work {D:\FPGA\26competition\example42\sim\work42} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdb_master_controls
+R4
+Z16 !s110 1793183784
+!i10b 1
+!s100 60dkMXYJ`2NEGoZE?:fnY2
+I<BlRSZ^]CFNC7S:?Y;Xcc2
+R6
+!s105 db_controls_v_unit
+S1
+R0
+w1793100468
+8D:\FPGA\tmp\example37_inspect\example37\example37\src\db_controls.v
+FD:\FPGA\tmp\example37_inspect\example37\example37\src\db_controls.v
+L0 2
+R11
+r1
+!s85 0
+31
+Z17 !s108 1793183784.000000
+Z18 !s107 D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|D:\FPGA\tmp\example37_inspect\example37\example37\src\voice_mapper_12.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\touch_note_control.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\db_controls.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\db_spi_link.v|D:\FPGA\26competition\example42\src\db_score_player.v|
+Z19 !s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\src\db_score_player.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\db_spi_link.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\db_controls.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\touch_note_control.v|D:\FPGA\tmp\example37_inspect\example37\example37\src\voice_mapper_12.v|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!i113 0
+R15
+R2
+vdb_score_player
+R4
+Z20 !s110 1793184101
+!i10b 1
+!s100 ^>8o:XDT2BmLg45_UDDJd0
+IgS2oOlJf^S_GVMCX0hDkn3
+R6
+!s105 db_score_player_v_unit
+S1
+R0
+w1793184044
+8D:\FPGA\26competition\example42\src\db_score_player.v
+FD:\FPGA\26competition\example42\src\db_score_player.v
+L0 8
+R11
+r1
+!s85 0
+31
+Z21 !s108 1793184101.000000
+Z22 !s107 D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|D:\FPGA\26competition\example42\sim\tb_cross_octave.sv|D:\FPGA\26competition\example42\src\db_score_player.v|
+Z23 !s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\src\db_score_player.v|D:\FPGA\26competition\example42\sim\tb_cross_octave.sv|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!i113 0
+R15
+R2
+vdb_score_serial
+R4
+R5
+!i10b 1
+!s100 D_6S@cknBi?cXm;]LYcMV0
+ITdOGW4bVO<=YR<HihWHA62
+R6
+!s105 db_score_serial_v_unit
+S1
+R0
+w1793183467
+8D:\FPGA\26competition\example42\src\db_score_serial.v
+FD:\FPGA\26competition\example42\src\db_score_serial.v
+L0 7
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vdb_spi_master
+R4
+R16
+!i10b 1
+!s100 f0A`Mo<;WUYN;D`j`hZ_I2
+IX:TF<idQiiUNCg@0Zmo0?1
+R6
+!s105 db_spi_link_v_unit
+S1
+R0
+w1793019008
+8D:\FPGA\tmp\example37_inspect\example37\example37\src\db_spi_link.v
+FD:\FPGA\tmp\example37_inspect\example37\example37\src\db_spi_link.v
+L0 3
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R15
+R2
+vdb_spi_slave
+R4
+!s110 1793184204
+!i10b 1
+!s100 bc9eQNB=NCBX>d?R`5dCV3
+IWE=jJEX=<IYnmI:?JWZ]T0
+R6
+!s105 b42_spi_slave_for_a37_v_unit
+S1
+R0
+w1793184204
+8D:\FPGA\26competition\example42\sim\b42_spi_slave_for_a37.v
+FD:\FPGA\26competition\example42\sim\b42_spi_slave_for_a37.v
+L0 2
+R11
+r1
+!s85 0
+31
+!s108 1793184204.000000
+!s107 D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|D:\FPGA\26competition\example42\sim\b42_spi_slave_for_a37.v|
+!s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\sim\b42_spi_slave_for_a37.v|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!i113 0
+R15
+R2
+vdb_uart_rx
+R4
+!s110 1793183597
+!i10b 1
+!s100 [FG=Wl`SW[PLke4fVJJbX2
+I3ZA2Ud2]j8El7jzO>AROI0
+R6
+R7
+S1
+R0
+R8
+R9
+R10
+L0 2
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vtb_b42_a37_spi
+R4
+!s110 1793184393
+!i10b 1
+!s100 =lBoE>KimVPR0<a<FkNPn1
+IPGoDQSnH53na5XC0O=Z4H3
+R6
+!s105 tb_b42_a37_spi_sv_unit
+S1
+R0
+w1793184380
+8D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv
+FD:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv
+L0 3
+R11
+r1
+!s85 0
+31
+!s108 1793184393.000000
+!s107 D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!i113 0
+R15
+R2
+vtb_cross_octave
+R4
+R20
+!i10b 1
+!s100 j@dmMS[f_3ae4l<^BA;AS1
+IABjko?o:aHdfhIb?>FXU92
+R6
+!s105 tb_cross_octave_sv_unit
+S1
+R0
+w1793184087
+8D:\FPGA\26competition\example42\sim\tb_cross_octave.sv
+FD:\FPGA\26competition\example42\sim\tb_cross_octave.sv
+L0 3
+R11
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 0
+R15
+R2
+vtb_long_score
+R4
+!s110 1793183931
+!i10b 1
+!s100 U9N7AISLBaHeklJMcBoLg3
+I_;kDW:AdTA;b<>jJ`_:zR0
+R6
+!s105 tb_long_score_sv_unit
+S1
+R0
+w1793183543
+8D:\FPGA\26competition\example42\sim\tb_long_score.sv
+FD:\FPGA\26competition\example42\sim\tb_long_score.sv
+L0 2
+R11
+r1
+!s85 0
+31
+!s108 1793183931.000000
+!s107 D:\FPGA\26competition\example42\sim\tb_long_score.sv|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|
+!s90 -sv|-work|D:\FPGA\26competition\example42\sim\work42|D:\FPGA\26competition\example42\sim\tb_b42_a37_spi.sv|D:\FPGA\26competition\example42\sim\tb_long_score.sv|
+!i113 0
+R15
+R2
+vtb_poly_score
+R4
+R5
+!i10b 1
+!s100 4Al92NbR2CVXg9l`Lnm:80
+I?gMhLI35B6^fb=8i9Eaeo2
+R6
+!s105 tb_poly_score_sv_unit
+S1
+R0
+w1793180345
+8D:\FPGA\26competition\example42\sim\tb_poly_score.sv
+FD:\FPGA\26competition\example42\sim\tb_poly_score.sv
+L0 2
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vtb_score_automation
+R4
+R5
+!i10b 1
+!s100 k36F]SfgY1WU];hJE64;03
+I?8?G@C3X9=_Y6C@E:18>63
+R6
+!s105 tb_score_automation_sv_unit
+S1
+R0
+w1793180318
+8D:\FPGA\26competition\example42\sim\tb_score_automation.sv
+FD:\FPGA\26competition\example42\sim\tb_score_automation.sv
+L0 2
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vtb_spectrum_uart
+R4
+Z24 !s110 1793194407
+!i10b 1
+!s100 ?iKWz?L`PG:Jo9FFoKYWk3
+IRlQ_I3`icMdW<hWc3JG^W0
+R6
+!s105 tb_spectrum_uart_sv_unit
+S1
+Z25 dD:/FPGA/26competition/example43
+w1793194397
+8sim/tb_spectrum_uart.sv
+Fsim/tb_spectrum_uart.sv
+L0 2
+R11
+r1
+!s85 0
+31
+Z26 !s108 1793194407.000000
+Z27 !s107 src/uart_tx.v|src/tjc_display_uart.v|sim/tb_tjc_effect_uart.sv|sim/tb_spectrum_uart.sv|
+Z28 !s90 -work|sim/work42|-sv|sim/tb_spectrum_uart.sv|sim/tb_tjc_effect_uart.sv|src/tjc_display_uart.v|src/uart_tx.v|
+!i113 0
+Z29 o-work sim/work42 -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_tjc_effect_uart
+R4
+R24
+!i10b 1
+!s100 8iL1Ng[R5nh7eMJROzAk50
+I_mN8C4dkiO@PaQHk;Q0mC2
+R6
+!s105 tb_tjc_effect_uart_sv_unit
+S1
+R25
+w1792931149
+8sim/tb_tjc_effect_uart.sv
+Fsim/tb_tjc_effect_uart.sv
+L0 2
+R11
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R29
+R2
+vtjc_display_uart
+R4
+R24
+!i10b 1
+!s100 l2ChMh@8=nT:FFAWXzOz`0
+Ig0=]0VN?P^N8;g1H5nZGZ2
+R6
+!s105 tjc_display_uart_v_unit
+S1
+R25
+w1793194380
+8src/tjc_display_uart.v
+Fsrc/tjc_display_uart.v
+L0 6
+R11
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R29
+R2
+vtouch_note_control
+R4
+R16
+!i10b 1
+!s100 ean_<>>P2@fB6`WRgIhC;2
+IIZgoH@AOVZ<gcUbk6CcOm2
+R6
+!s105 touch_note_control_v_unit
+S1
+R0
+Z30 w1793154036
+8D:\FPGA\tmp\example37_inspect\example37\example37\src\touch_note_control.v
+FD:\FPGA\tmp\example37_inspect\example37\example37\src\touch_note_control.v
+Z31 L0 11
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R15
+R2
+vuart_tx
+R4
+R24
+!i10b 1
+!s100 DYJS>6_71dMDX;<4maUhA3
+IYOhP_dogZY9zAci69Bjnf0
+R6
+!s105 uart_tx_v_unit
+S1
+R25
+w1792916146
+8src/uart_tx.v
+Fsrc/uart_tx.v
+L0 3
+R11
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 0
+R29
+R2
+vvoice_mapper_12
+R4
+R16
+!i10b 1
+!s100 KYK4iI5I^TJdQG7556P7X2
+IJh:?4BSOd2jfD7JI?9OJK3
+R6
+!s105 voice_mapper_12_v_unit
+S1
+R0
+R30
+8D:\FPGA\tmp\example37_inspect\example37\example37\src\voice_mapper_12.v
+FD:\FPGA\tmp\example37_inspect\example37\example37\src\voice_mapper_12.v
+R31
+R11
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R15
+R2
